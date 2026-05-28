@@ -1,0 +1,99 @@
+```gitignore
+# ===================
+# Secrets / Environment
+# ===================
+.env
+.env.*
+!.env.example
+
+# ===================
+# AI Tools / Local AI Config
+# ===================
+.continue/
+.cursor/
+.copilot/
+.aider.conf.yml
+.aider.local.yml
+
+# ===================
+# Editors / IDE
+# ===================
+.idea/
+.settings/
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Editor temp files
+*.swp
+*.swo
+*~
+*.suo
+*.user
+
+# ===================
+# OS junk
+# ===================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===================
+# Logs / temp
+# ===================
+*.log
+*.tmp
+*.bak
+*.cache
+
+# ===================
+# C / C++
+# ===================
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.ilk
+*.pdb
+*.idb
+*.exp
+*.lib
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+compile_commands.json
+
+# ===================
+# Python
+# ===================
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+venv/
+.venv/
+
+dist/
+build/
+
+# ===================
+# Node.js
+# ===================
+node_modules/
+
+# ===================
+# Docker
+# ===================
+docker-compose.override.yml
+```
